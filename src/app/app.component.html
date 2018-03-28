@@ -1,9 +1,12 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <button>What?</button>
-</div>
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span class="title">Tour of Heros</span>
+    <a mat-button [routerLink]="['/home']" routerLinkActive="router-link-active" class="nav-link">Home</a>
+    <a mat-button [routerLink]="['/heros']" routerLinkActive="router-link-active" class="nav-link">Heros</a>
+  </mat-toolbar-row>
+
+
+
+</mat-toolbar>
 
 <router-outlet></router-outlet>
