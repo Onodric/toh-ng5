@@ -1,1 +1,9 @@
-@import '~@angular/material/prebuilt-themes/purple-green.css'
+@import '~@angular/material/prebuilt-themes/purple-green.css';
+
+.title {
+  margin-right: 1em;
+}
+
+.nav-link {
+  margin-right: 1em;
+}
