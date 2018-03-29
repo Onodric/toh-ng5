@@ -1,5 +1,17 @@
 <div class="page-content">
-  <p>
-    heros works!
-  </p>
+  <h3>Heros &lt;<em>sic</em>&gt;</h3>
+<ul class="heros" *ngIf="heros && heros.length">
+  <li *ngFor="let hero of heros">
+    <div>{{ hero.id }}</div>
+    <div>{{ hero.name }}</div>
+    <div>{{ hero.saying }}</div>
+  </li>
+</ul>
 </div>
+<mat-list role="list" class="heros" *ngIf="heros && heros.length">
+  <mat-list-item role="listitem" *ngFor="let hero of heros">
+    <span class="hero-id">{{ hero.id }}</span>
+    <span class="hero-name">{{ hero.name }}</span>
+    <span class="hero-saying">{{ hero.saying }}</span>
+  </mat-list-item>
+</mat-list>
