@@ -1,0 +1,25 @@
+.hero-id {
+  background: greenyellow;
+  border-radius: .5em;
+  border: 1px solid #555;
+  color: grey;
+  padding: .25em;
+  font-size: .85em;
+  margin: 1em;
+}
+
+.hero-name {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: .25em 1em;
+  background: darkblue;
+  color: aliceblue;
+  border-radius: 1em;
+}
+
+.hero-saying {
+  font-style: italic;
+  font-size: 1.15em;
+  color: #070707;
+  margin-left: 1em;
+}
